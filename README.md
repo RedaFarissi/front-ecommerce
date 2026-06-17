@@ -108,4 +108,4 @@ Add screenshots of:
 
 ## Author
 
-Reda Farissi
+Reda Eskouni
