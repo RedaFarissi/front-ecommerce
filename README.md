@@ -1,4 +1,4 @@
-# E-Commerce Frontend
+<img width="1917" height="1011" alt="image" src="https://github.com/user-attachments/assets/7dec667a-1a5b-4f12-8011-42b21b8deef9" /># E-Commerce Frontend
 
 A modern e-commerce frontend application built with React and connected to a Django REST Framework backend.
 
@@ -54,35 +54,43 @@ src/
 
 ### Home Page
 
-<img src="./screenshots/home.png" />
-<img src="./screenshots/home2.png" />
-
+<img src="./screenshots/home.png" width="100%" />
+<img src="./screenshots/home2.png" width="100%" />
+<img src="./screenshots/home3.png" width="100%" />
+<img src="./screenshots/home4.png" width="100%" />
 
 ### Product Categories
 
-<img src="./screenshots/categories.png" />
+<img src="./screenshots/categories.png" width="100%" />
 
 ### Product Details
-<img src="./screenshots/product.png" />
-<img src="./screenshots/product2.png" />
-<img src="./screenshots/product3.png" />
-<img src="./screenshots/product3.png" />
+<img src="./screenshots/product.png" width="100%" />
+<img src="./screenshots/product2.png" width="100%" />
+<img src="./screenshots/product3.png" width="100%" />
+<img src="./screenshots/product3.png" width="100%" />
 
 ### Shopping Cart
-<img src="./screenshots/cart.png" />
+<img src="./screenshots/cart.png" width="100%" />
 
 
 ### Your Order
-<img src="./screenshots/order.png" />
+<img src="./screenshots/order.png" width="100%" />
 
 ### Checkout
-<img src="./screenshots/checkout.png" />
+<img src="./screenshots/checkout.png" width="100%" />
+
+### Payment
+<img src="./screenshots/payment.png" width="100%" />
+<img src="./screenshots/payment2.png" width="100%" />
 
 ### Login
-<img src="./screenshots/login.png" />
+<img src="./screenshots/login.png" width="100%" />
+
+### Create Product
+<img src="./screenshots/create_product.png" width="100%" />
 
 ### Admin Dashboard
-<img src="./screenshots/admin.png" />
+<img src="./screenshots/admin.png" width="100%" />
 
 ## Installation
 
