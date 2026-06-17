@@ -89,8 +89,6 @@ src/
 ### Create Product
 <img src="./screenshots/create_product.png" width="100%" />
 
-### Admin Dashboard
-<img src="./screenshots/admin.png" width="100%" />
 
 ## Installation
 
@@ -138,4 +136,3 @@ SQLite Database
 ## Author
 
 Reda Eskouni
-Full Stack Developer
