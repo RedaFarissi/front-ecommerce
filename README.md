@@ -1,70 +1,111 @@
-# Getting Started with Create React App
+# E-Commerce Backend API
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A full-featured e-commerce backend built with Django and Django REST Framework. This project provides RESTful APIs for product management, shopping cart operations, order processing, and payment integration.
 
-## Available Scripts
+## Features
 
-In the project directory, you can run:
+* Product management
+* Shopping cart functionality
+* Order management
+* Payment processing
+* RESTful API architecture
+* Media upload support
+* Docker support
+* Frontend integration with React
+* SQLite database (development)
 
-### `npm start`
+## Tech Stack
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+* Python
+* Django
+* Django REST Framework
+* SQLite
+* Docker
+* REST API
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Project Structure
 
-### `npm test`
+```text
+cart/          -> Shopping cart management
+order/         -> Order processing
+payment/       -> Payment management
+produit/       -> Product management
+media/         -> Uploaded files
+```
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Installation
 
-### `npm run build`
+### Clone Repository
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+```bash
+git clone https://github.com/RedaFarissi/back-ecommerce.git
+cd back-ecommerce
+```
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### Create Virtual Environment
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+```bash
+python -m venv venv
+```
 
-### `npm run eject`
+### Activate Environment
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+Windows:
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+```bash
+venv\Scripts\activate
+```
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+Linux / Mac:
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+```bash
+source venv/bin/activate
+```
 
-## Learn More
+### Install Dependencies
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+```bash
+pip install -r requirements.txt
+```
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+### Run Migrations
 
-### Code Splitting
+```bash
+python manage.py migrate
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+### Start Server
 
-### Analyzing the Bundle Size
+```bash
+python manage.py runserver
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+Server:
 
-### Making a Progressive Web App
+```text
+http://127.0.0.1:8000/
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+## Docker
 
-### Advanced Configuration
+```bash
+docker-compose up --build
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+## Frontend Repository
 
-### Deployment
+https://github.com/RedaFarissi/front-ecommerce
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+## Screenshots
 
-### `npm run build` fails to minify
+Add screenshots of:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+* API endpoints
+* Admin dashboard
+* Product management
+* Orders
+* Cart operations
+
+## Author
+
+Reda Farissi
