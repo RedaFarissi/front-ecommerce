@@ -14,7 +14,8 @@ A modern e-commerce frontend application built with React and connected to a Dja
 * Order management
 * Payment integration
 * Responsive user interface
-
+* Multi-language support
+  
 ### Admin Features
 
 * Product management
@@ -53,31 +54,35 @@ src/
 
 ### Home Page
 
-![Home](./screenshots/home.png)
+<img src="./screenshots/home.png" />
+<img src="./screenshots/home2.png" />
+
 
 ### Product Categories
 
-![Categories](./screenshots/categories.png)
+<img src="./screenshots/categories.png" />
 
 ### Product Details
-
-![Product](./screenshots/product.png)
+<img src="./screenshots/product.png" />
+<img src="./screenshots/product2.png" />
+<img src="./screenshots/product3.png" />
+<img src="./screenshots/product3.png" />
 
 ### Shopping Cart
+<img src="./screenshots/cart.png" />
 
-![Cart](./screenshots/cart.png)
+
+### Your Order
+<img src="./screenshots/order.png" />
 
 ### Checkout
-
-![Checkout](./screenshots/checkout.png)
+<img src="./screenshots/checkout.png" />
 
 ### Login
-
-![Login](./screenshots/login.png)
+<img src="./screenshots/login.png" />
 
 ### Admin Dashboard
-
-![Admin](./screenshots/admin.png)
+<img src="./screenshots/admin.png" />
 
 ## Installation
 
