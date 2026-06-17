@@ -1,111 +1,128 @@
-# E-Commerce Backend API
+# E-Commerce Frontend
 
-A full-featured e-commerce backend built with Django and Django REST Framework. This project provides RESTful APIs for product management, shopping cart operations, order processing, and payment integration.
+A modern e-commerce frontend application built with React and connected to a Django REST Framework backend.
 
 ## Features
 
-* Product management
-* Shopping cart functionality
+### Customer Features
+
+* User registration and authentication
+* Browse products by category
+* Product search functionality
+* Shopping cart management
+* Secure checkout process
 * Order management
-* Payment processing
-* RESTful API architecture
-* Media upload support
-* Docker support
-* Frontend integration with React
-* SQLite database (development)
+* Payment integration
+* Responsive user interface
+
+### Admin Features
+
+* Product management
+* Category management
+* Order monitoring
+* Content management
 
 ## Tech Stack
 
-* Python
-* Django
-* Django REST Framework
-* SQLite
+* React.js
+* React Router
+* JavaScript
+* CSS
+* Axios
+* Django REST Framework API
 * Docker
-* REST API
 
-## Project Structure
+## Application Structure
 
 ```text
-cart/          -> Shopping cart management
-order/         -> Order processing
-payment/       -> Payment management
-produit/       -> Product management
-media/         -> Uploaded files
+src/
+├── admin/
+├── cart/
+├── category_item/
+├── create_account/
+├── header/
+├── home/
+├── login/
+├── order/
+├── payments/
+├── search/
+└── language/
 ```
+
+## Screenshots
+
+### Home Page
+
+![Home](./screenshots/home.png)
+
+### Product Categories
+
+![Categories](./screenshots/categories.png)
+
+### Product Details
+
+![Product](./screenshots/product.png)
+
+### Shopping Cart
+
+![Cart](./screenshots/cart.png)
+
+### Checkout
+
+![Checkout](./screenshots/checkout.png)
+
+### Login
+
+![Login](./screenshots/login.png)
+
+### Admin Dashboard
+
+![Admin](./screenshots/admin.png)
 
 ## Installation
 
 ### Clone Repository
 
 ```bash
-git clone https://github.com/RedaFarissi/back-ecommerce.git
-cd back-ecommerce
-```
-
-### Create Virtual Environment
-
-```bash
-python -m venv venv
-```
-
-### Activate Environment
-
-Windows:
-
-```bash
-venv\Scripts\activate
-```
-
-Linux / Mac:
-
-```bash
-source venv/bin/activate
+git clone https://github.com/RedaFarissi/front-ecommerce.git
+cd front-ecommerce
 ```
 
 ### Install Dependencies
 
 ```bash
-pip install -r requirements.txt
+npm install
 ```
 
-### Run Migrations
+### Run Development Server
 
 ```bash
-python manage.py migrate
+npm start
 ```
 
-### Start Server
-
-```bash
-python manage.py runserver
-```
-
-Server:
+Application runs on:
 
 ```text
-http://127.0.0.1:8000/
+http://localhost:3000
 ```
 
-## Docker
+## Backend Repository
 
-```bash
-docker-compose up --build
+https://github.com/RedaFarissi/back-ecommerce
+
+## Architecture
+
+```text
+React Frontend
+       │
+       ▼
+Django REST API
+       │
+       ▼
+SQLite Database
 ```
-
-## Frontend Repository
-
-https://github.com/RedaFarissi/front-ecommerce
-
-## Screenshots
-
-Add screenshots of:
-
-* API endpoints
-* Admin dashboard
-* Product management
-* Orders
-* Cart operations
 
 ## Author
 
 Reda Eskouni
+Full Stack Developer
