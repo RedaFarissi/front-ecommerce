@@ -30,7 +30,7 @@ class App extends Component {
       last_produit_after_four: [] ,
       top_4_products_has_liked:[], 
       detail_slug:"" , 
-      language:localStorage.getItem('language') || "english" , 
+      language: localStorage.getItem('language') || "english" , 
       bg_black: localStorage.getItem("bg_color") !== null ,   
       cart_length:0 ,
       isAdmin:false ,
@@ -90,8 +90,11 @@ class App extends Component {
     const headers = {
       Authorization: `Bearer ${localStorage.getItem('auth_token')}`, 
     };
+    
     (localStorage.bg_color === undefined||localStorage.bg_color === null||localStorage.bg_color === "white")?
-    document.body.style.backgroundColor = "white" : document.body.style.backgroundColor = "black" ;
+    document.body.style.backgroundColor = "white" : 
+    document.body.style.backgroundColor = "black" ;
+    
     try {
       const response = await axios.get(`${this.state.url}produit_api/` , {headers});
       const responseData = response.data;
@@ -107,6 +110,7 @@ class App extends Component {
     }catch (error) {
       console.log(error);
     };
+
     this.cart_length(); 
     this.is_admin();
   }
@@ -189,7 +193,7 @@ class App extends Component {
                 
                 <Route path='/login' element={<Login 
                     url={this.state.url}
-                    //language={this.state.language}
+                    language={this.state.language}
                   />} 
                 />    
                 
