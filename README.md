@@ -1,3 +1,9 @@
+Frontend:
+https://github.com/RedaFarissi/front-ecommerce
+
+Backend:
+https://github.com/RedaFarissi/back-ecommerce
+
 <img width="1917" height="1011" alt="image" src="https://github.com/user-attachments/assets/7dec667a-1a5b-4f12-8011-42b21b8deef9" /># E-Commerce Frontend
 
 A modern e-commerce frontend application built with React and connected to a Django REST Framework backend.
